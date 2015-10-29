@@ -26,7 +26,9 @@
     "url": "https://github.com/hectorinoman/ConersorTemperatura3/issues"
   },
   "homepage": "https://github.com/hectorinoman/ConersorTemperatura3#readme",
-  "dependencies": {},
+  "dependencies": {
+    "node-static": "^0.7.7"
+  },
   "devDependencies": {
     "blanket": "*",
     "chai": "*",
