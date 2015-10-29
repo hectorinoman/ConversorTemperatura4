@@ -1,0 +1,47 @@
+{
+  "name": "practica3",
+  "version": "1.0.0",
+  "description": "Práctica que mejora el conversor de temperatura",
+  "main": "temperatura.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "open  http://localhost:3000/tests/index.html",
+    "karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectorinoman/ConersorTemperatura3.git"
+  },
+  "keywords": [
+    "Práctica",
+    "3",
+    "conversor",
+    "temperatura"
+  ],
+  "author": "Hector Rodriguez Baez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hectorinoman/ConersorTemperatura3/issues"
+  },
+  "homepage": "https://github.com/hectorinoman/ConersorTemperatura3#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "blanket": "*",
+    "chai": "*",
+    "del": "*",
+    "html2js": "*",
+    "jasmine-core": "*",
+    "karma": "*",
+    "karma-chai": "*",
+    "karma-chrome-extra-launcher": "*",
+    "karma-chrome-launcher": "*",
+    "karma-coverage": "*",
+    "karma-firefox-launcher": "*",
+    "karma-html2js-preprocessor": "*",
+    "karma-jasmine": "*",
+    "karma-mocha": "*",
+    "mocha": "*"
+  }
+}

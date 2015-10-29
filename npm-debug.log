@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.24/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'karma' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose run-script [ 'prekarma', 'karma', 'postkarma' ]
+5 info prekarma practica3@1.0.0
+6 info karma practica3@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info practica3@1.0.0 Failed to exec karma script
+9 error practica3@1.0.0 karma: `./node_modules/karma/bin/karma start karma.conf.js --single-run`
+9 error Exit status 1
+10 error Failed at the practica3@1.0.0 karma script.
+10 error This is most likely a problem with the practica3 package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     ./node_modules/karma/bin/karma start karma.conf.js --single-run
+10 error You can get their info via:
+10 error     npm owner ls practica3
+10 error There is likely additional logging output above.
+11 error System Darwin 14.5.0
+12 error command "/usr/local/Cellar/node/0.10.24/bin/node" "/usr/local/bin/npm" "run" "karma"
+13 error cwd /Users/casiano/local/src/ruby/STW/alus/1516/hector/ConversorTemperatura3
+14 error node -v v0.10.24
+15 error npm -v 1.3.21
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]
