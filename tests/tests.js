@@ -48,7 +48,7 @@ describe("TesT", function() {
 });
 
 
-describe("TesT chai", function() {
+describe("TesT sinon", function() {
   it("56F", function() {
     var temp = new Temperatura();
     temp.set_valor(56);
