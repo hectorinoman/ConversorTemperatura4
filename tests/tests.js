@@ -48,3 +48,72 @@ describe("TesT", function() {
 });
 
 
+describe("TesT chai", function() {
+  it("56F", function() {
+    var temp = new Temperatura();
+    temp.set_valor(56);
+    temp.set_tipo("F");
+
+    var callback = sinon.spy();
+    callback(temp.get_valor());
+
+    expect(callback.called).to.be.true;
+    expect(callback.calledOnce).to.be.true;
+    expect(callback.firstCall.calledWith(56)).to.be.true;
+    expect(callback.firstCall.calledWith(sinon.match.number)).to.be.true;
+    expect(temp.get_valor()).to.equal(56);
+    expect(temp.get_tipo()).to.equal("F");
+  });
+  
+    it("78C", function() {
+    var temp = new Temperatura();
+    temp.set_valor(78);
+    temp.set_tipo("C");
+
+    var callback = sinon.spy();
+    callback(temp.get_valor());
+
+    expect(callback.called).to.be.true;
+    expect(callback.calledOnce).to.be.true;
+    expect(callback.firstCall.calledWith(78)).to.be.true;
+    expect(callback.firstCall.calledWith(sinon.match.number)).to.be.true;
+    expect(temp.get_valor()).to.equal(78);
+    expect(temp.get_tipo()).to.equal("C");
+  });
+  
+    
+  it("32F == 0C", function() {
+    var temp = new Temperatura();
+    temp.set_valor(32);
+    temp.set_tipo("F");
+
+    var callback = sinon.spy();
+    callback(temp.get_valor());
+
+    expect(callback.called).to.be.true;
+    expect(callback.calledOnce).to.be.true;
+    expect(callback.firstCall.calledWith(32)).to.be.true;
+    expect(callback.firstCall.calledWith(sinon.match.number)).to.be.true;
+
+
+  });
+    
+    
+    
+    
+    it("8.23C == 46.814F", function() {
+    var temp = new Temperatura();
+    temp.set_valor(8.23);
+    temp.set_tipo("C");
+
+    var callback = sinon.spy();
+    callback(temp.get_valor());
+
+    expect(callback.called).to.be.true;
+    expect(callback.calledOnce).to.be.true;
+    expect(callback.firstCall.calledWith(8.23)).to.be.true;
+    expect(callback.firstCall.calledWith(sinon.match.number)).to.be.true;
+
+  });
+
+});
