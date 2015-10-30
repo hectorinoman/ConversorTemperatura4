@@ -44,4 +44,4 @@ $  node static-server.js
 - Repositorio: https://github.com/hectorinoman/ConversorTemperatura4
 
 
-[![Build Status](https://travis-ci.org/hectorinoman/ConversorTemperatura3.svg)](https://travis-ci.org/hectorinoman/ConversorTemperatura3)
+[![Build Status](https://travis-ci.org/hectorinoman/ConversorTemperatura4.svg?branch=gh-pages)](https://travis-ci.org/hectorinoman/ConversorTemperatura4)
