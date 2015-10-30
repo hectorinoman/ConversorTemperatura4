@@ -114,6 +114,7 @@ describe("TesT sinon", function() {
     expect(callback.firstCall.calledWith(8.23)).to.be.true;
     expect(callback.firstCall.calledWith(sinon.match.number)).to.be.true;
 
+
   });
 
 });
